@@ -1,0 +1,296 @@
+@media screen and (min-width: 950px) {
+    
+    #id-footer-phone {
+        display: none;
+    }
+
+    #id-destaque {
+        display: none;
+    }
+
+    #id-footer-phone {
+        display: none;
+    }
+
+    #id-literarios, #id-cientificos, #id-religiosos  {
+        display: none;
+    }
+
+    #id-footer-principal {
+        display: block;
+    }
+
+    #id-livros-literarios, #id-livros-cientificos, #id-livros-religiosos {
+
+        display: block;
+    }
+
+    header#id-header { /*header index*/
+        z-index: 2; /*deixando o header na frente do carrossel*/
+        width: 100%;
+        height: 90px;
+        padding-right: 0;
+        position: absolute;
+    }
+/*---------------------------
+    #id-caixa-nav {
+        padding-inline: 20px;
+    }
+------------------------------*/
+
+    #id-b-hamburguer {
+        display: none; /*activando o header responsivo*/
+    }
+
+    #id-logovirtualbi2 {
+        display: none;
+    }
+
+/*CONFIG. CAIXA - NAVEGADOR*/
+    /*config do navegador no modo de tela menor*/
+    #id-nav-list {
+        list-style: none;
+        display: flex;
+        justify-content: right;
+        line-height: 60px;
+        margin-top: 20px;
+        margin-right: 80px;
+    }
+
+    #id-nav-list li > a {
+        margin-top: 5px;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 22px;
+        color: white;
+        line-height: 55px;
+    }
+    
+    .menu { /*(Cab) opções menu > a*/
+        margin-left: 25px;
+        padding-bottom: 10px;
+        position: relative;   
+    }
+    
+        .menu::after { /*Animação das opções do menu*/
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 3.8px;
+        background-color: rgb(72, 206, 206);;
+        transition: width 0.3s ease-in-out;
+        }
+        
+        .menu:hover::after { /*Activar a animação quando o mouse passar por cima*/
+        width: 100%;
+        }
+
+    /*SESSÃO DE DESTAQUE DOS LIVROS-------*/
+
+
+    .destaque-pc {
+        display: block;
+    }
+
+    .caixa-destaque {
+        display: flex;
+    }
+    
+    .font-titulo-section-white { /*titulos das categorias*/
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 50px;
+    }
+
+    section#id-livros-cientificos .card-title {     
+        color: white;
+    }
+
+    section .card-title {     
+        font-size: 22px;
+    }
+
+    section .card-text {
+        font-size: 18px;
+        color: black;
+    }
+
+    .card { /*(Sect) caixa livro*/
+        background-color: rgba(255, 255, 255, 0.573);
+        padding-left: 20px;
+        height: 300px;
+        justify-content: center;
+        margin: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.144);
+        transition: .3s;
+    }
+    
+    .card:hover { /*(Sect) caixa livro - efeito*/
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.185);
+        height: 350px;
+        margin: 5px;
+        background-color: rgba(255, 255, 255, 0.89);
+    }
+
+    .card img {
+        width: 400px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.336);
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    #id-display-categoria {
+        display: flex; 
+        justify-content: space-around; 
+        width: 620px;
+    }
+
+    .livro-categoria {  /*cada categoria*/
+        margin-block: 15px;
+        background: #3d88c11a;
+        width: 190px;
+        padding-bottom: 80px;
+        border-radius: 5px;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.452);
+    }
+
+    .ler-livro { /*Botão - opção ler livro*/
+        padding: 4px 30px;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(72, 206, 206);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+        color: white;
+        transition: .2s;
+    }
+    
+    .ler-livro:hover {
+        margin-left: 20px;
+        background-color: rgb(53, 156, 156);
+        border-radius: 20px;
+        box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.404);        
+    }
+        
+    footer {
+        height: 560px;
+    }
+
+    footer li {
+        list-style: none;
+    }
+
+    footer#id-footer-vpt {
+        display: block;
+    }
+
+        footer#id-footer-vpt p {
+            color: white;
+        }
+
+        /*CONFIGURAÇÕES PARA TELAS MAIORES*/
+
+footer a, p {
+    /*Para todos os links e parágrafos do rodapé*/
+        margin-bottom: 5px;
+        font-size: 14.5px;
+        text-decoration: none;
+    }
+    
+    .titulo {
+    /*classe - para todos os títulos do footer*/
+        font-size: 17px;
+        font-weight: bolder;
+        color: rgb(72, 206, 206);
+    }
+    
+    div#id-footer-top { /*CAIXA RODAPE TOP*/
+    /*Alinhando as caixas na horizontal- rodapé - top*/
+        display: flex;
+        justify-content: space-around;
+        padding-top: 60px;
+    }
+    
+        #id-logo-footer { /*(Crt1) caixa logo biblio*/
+            margin-bottom: 30px;
+        }
+    
+        #id-redes-logo { /*(Crt1) caixa logo biblio*/
+            display: flex;
+            height: 50px;
+        }
+    
+        .redes-sociais, #id-logo-gmail { /*(Crt1) caixa > img redes sociais*/
+            width: 40px;
+            height: 40px;
+            border: 1px solid #42505c6e;
+        }
+            #id-logo-whatapp{ /*(Crt1) caixa > img redes sociais*/
+                padding: 5px; /*Redução do tamanho do logo do whatsapp*/
+            }
+    
+            .redes-sociais:hover, #id-logo-gmail:hover { /*Efeito no passar do mouse sobre o icon*/
+                background-color: #42505c;
+                margin-top: 5px;
+            }
+    
+        #id-tel, #id-email {
+            /*(Crt1) caixa > numero - telefone*/
+            /*(Crt1) caixa > email*/
+            margin-top: 35px;
+            height: 60px;
+        }
+    
+        #id-links { /*(Crt2) caixa links*/
+            width: 500px;
+            justify-content: space-between;
+        }
+    
+        #id-links, #id-empresas-linha {
+            /*(Crt2) caixa links*/
+            /*(Crt2) (Crt2) caixa*/
+            display: flex;
+        }
+    
+        #id-empresas { /*(Crt2) caixa empresas*/
+            margin-top: 46px;
+        }
+    
+        .empresas { /*<!--(Crt2) caixa > img-->*/
+            width: 150px;
+            height: 60px;
+        }
+    
+        .logo-empresas { /*(Crt2) caixa empresas > img*/
+            width: 150px;
+            height: 60px;
+        }
+    
+            .logo-empresas:hover { /*(Crt2) caixa > img unitel*/
+                margin-top: 5px;
+            }
+    
+        hr { /*Uma linha horizontal - separador*/
+            background-color: #ffffff;
+            margin: 20px auto 15px auto;
+            width: 90%;
+        }
+    
+        div#id-footer-bottom {
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        *{
+            font-size: 24px;
+        }
+
+        section p {
+            font-size: 22px;
+        }
+}

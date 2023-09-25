@@ -1,0 +1,22 @@
+    /*SESSÃO COROUSEL-------------*/
+    @media screen and (max-width: 750px) { /*phone*/
+    #header-carousel img{
+        /*aumentando o tamanho das imagens do carrossel*/
+        height: 450px;
+        }
+    }
+    
+    @media screen and (min-width: 750px) and (max-width: 800px) { /*tablet*/
+    #header-carousel img{
+        /*aumentando o tamanho das imagens do carrossel*/
+        height: 600px;
+        }
+    }
+
+    @media screen and (min-width: 800px) { /*tablet*/
+    #header-carousel img{
+        /*aumentando o tamanho das imagens do carrossel*/
+        height: 600px;
+        }
+    }
+    /*--------------------------------------------------*/
