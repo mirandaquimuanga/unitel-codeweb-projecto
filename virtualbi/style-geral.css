@@ -1,0 +1,108 @@
+* { /*Para toda página HTML*/
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+h1, h2, h5 {
+    color: #2DD6CB;
+    font-weight: bolder;
+}
+
+a, p {
+    color: white;
+}
+
+a:hover {
+    color: #2DD6CB;
+}
+
+/*Esclusivos para pc*/
+#id-categoria-pc {
+    display: none;
+}
+
+footer#id-footer-vpt {
+    display: none;
+}
+
+#id-livros-literarios {
+    display: none;
+}
+
+.destaque-pc {
+    display: none;
+}
+
+#id-footer-principal {
+    display: none;
+}
+
+#id-livros-literarios, #id-livros-cientificos, #id-livros-religiosos{
+    display: none;
+}
+/*-------------------*/
+
+/*CONFIG. BOTÕES DO SITE*/
+.caixa-button {
+    text-align: center;
+    width: 100%;
+}
+
+.button-ler-livro {
+    color: white;
+    font-size: 24px;
+    border: none;
+    background-color: #3D87C1;
+    padding: 6px 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.63);
+}
+
+    .button-ler-livro:hover {
+        margin-left: 10px;
+        background-color: #2a5c83;
+        transition: .3s ease-in-out;
+    }
+
+/*EFEITO PARALAX*/
+
+
+/*sessão destaque grupo 2*/
+#id-caixa-destaque-fundo {
+    background-image: url(../../imagem/background/back-destaque.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.815);
+}
+
+#id-caixa-destaque-fundo .card{
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+    .livro-categoria {  /*cada categoria*/
+        margin-block: 15px;
+        background: #3d88c11a;
+        width: 190px;
+        padding-block: 15px;
+        border-radius: 5px;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.452);
+    }
+
+    .livro-categoria:hover {  /*cada categoria*/
+        background: #3d88c136;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.507);
+        margin-left: 10px;
+        transition: .3s ease-in-out;
+    }
+
+        .livro-categoria h5, .livro-categoria p {  /*mexendo com a cor branca dos elementos da caixa livro-categoria*/
+            color: white;
+        }
+
+        #id-destaque-linha2 .card-text, #id-destaque-linha2 .card-title{
+            color: white;
+        }
+    /*---------------------------------------------------*/
+
+    /*--------------------------------*/

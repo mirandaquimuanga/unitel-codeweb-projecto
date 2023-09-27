@@ -1,0 +1,28 @@
+     /*SESSÃO CATEGORIAS - home | EFEITO PARALLAX-----------------*/
+     .font-titulo-section-no-white{
+        padding-top: 50px;
+     }
+
+     #id-categoria { /*Sect categoria*/
+        background: url(../../imagem/background/back-destaque.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.568);
+    }
+
+    #id-categoria-sobrepor { /*Sect categoria - sobrepor*/
+        text-align: center;
+        padding-block: 80px;
+        background-color: #26333dee;
+    }
+     
+    #id-categorias {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+        #id-display-categoria {
+            width: 200px;
+        }
